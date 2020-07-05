@@ -29,7 +29,7 @@ OR, you can also use the IDE's inbuilt VCS cloning feature to directly import th
 Since its a text based game, you won't require arrow keys to control. Instead, you control your in-game character via a set of instructions that  appear on screen. Please remember, some commands might be case sensitive and can result in an error if not entered in the correct case.    
 
 ## Version info
-Update Pending
+v1.0.0  |  Released on 5th July 2020 
 
 
 
