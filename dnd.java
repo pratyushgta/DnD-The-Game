@@ -1280,7 +1280,7 @@ public class dnd
         }
         else if(ch==4){
             System.out.println("Current Version: v1.0.0");
-            System.out.println("Released   on  : 6 JULY 2020");
+            System.out.println("Released   on  : 5 JULY 2020");
             System.out.println("Check out the GitHub page of the game for latest updates!");
             playersettings();
         }
