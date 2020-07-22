@@ -30,7 +30,8 @@ Since its a text based game, you won't require arrow keys to control. Instead, y
 
 ## Version info
 v1.0.0  |  Released on 5th July 2020 
-v1.1.0  |  Released on 22nd July 2020 
+
+v1.1.0  |  Released on 22nd July 2020 [LATEST]
 
 
 
