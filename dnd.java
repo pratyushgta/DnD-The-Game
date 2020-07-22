@@ -458,7 +458,7 @@ public class dnd
 
             if(choice==1 && money>=15)
             {
-                playerWeapon="Knife";
+                playerWeapon="Dagger";
                 money=money-15;
                 System.out.println("--------------------");
                 System.out.println("Your HP: "+ playerHP);
@@ -502,7 +502,7 @@ public class dnd
             else
             {
                 System.out.println("------------------------------------------------------------");
-                System.out.println("Uh oh! You do not have enough money to purchase thagt spell!");
+                System.out.println("Uh oh! You do not have enough money to purchase that weapon!");
                 System.out.println("------------------------------------------------------------");
                 System.out.println("|Press any key to continue|");
                 enterScanner.nextLine();
@@ -542,9 +542,9 @@ public class dnd
             }
             else
             {
-                System.out.println("------------------------------------------------------------");
-                System.out.println("Uh oh! You do not have enough money to purchase thagt spell!");
-                System.out.println("------------------------------------------------------------");
+                System.out.println("-----------------------------------------------------------");
+                System.out.println("Uh oh! You do not have enough money to purchase that spell!");
+                System.out.println("-----------------------------------------------------------");
                 System.out.println("|Press any key to continue|");
                 enterScanner.nextLine();
             }
@@ -1130,9 +1130,9 @@ public class dnd
         }
         else if(ch==4)
         {
-            System.out.println("Current Version: v1.0.0");
+            System.out.println("Current Version: v1.1.0");
             System.out.println("Current Developer Version: v1.0.0");
-            System.out.println("Released   on  : 5 JULY 2020   ");
+            System.out.println("Released   on  : 22 JULY 2020   ");
             System.out.println("Check out the GitHub page of the game for latest updates!");
             settings();
         }
@@ -1279,8 +1279,8 @@ public class dnd
             playersettings();
         }
         else if(ch==4){
-            System.out.println("Current Version: v1.0.0");
-            System.out.println("Released   on  : 5 JULY 2020");
+            System.out.println("Current Version: v1.1.0");
+            System.out.println("Released   on  : 22 JULY 2020");
             System.out.println("Check out the GitHub page of the game for latest updates!");
             playersettings();
         }
