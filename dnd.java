@@ -364,24 +364,26 @@ public class dnd
                     north();
                 }
             }
+            else{
+                System.out.println("------------------------------------------------------------------");
+                System.out.println("\n\n1: Go back to the crossroad");
+                System.out.println("\n------------------------------------------------------------------\n");
+                int ch1=sc.nextInt();
+
+                if(ch1==1)
+                {
+                    tower();
+                }
+                else
+                {
+                    north();
+                }
+            }
         }
         else if(ch==0){
             tower();
         }
         else{
-            north();
-        }
-        System.out.println("------------------------------------------------------------------");
-        System.out.println("\n\n1: Go back to the crossroad");
-        System.out.println("\n------------------------------------------------------------------\n");
-        int ch1=sc.nextInt();
-
-        if(ch1==1)
-        {
-            tower();
-        }
-        else
-        {
             north();
         }
     }
@@ -593,19 +595,6 @@ public class dnd
             tower();
         }
         else{
-            east();
-        }
-
-        System.out.println("\n------------------------------------------------------------------");
-        System.out.println("1: Go back to the crossroad");
-        System.out.println("------------------------------------------------------------------\n");
-        int ch1=sc.nextInt();
-        if(ch1==1)
-        {
-            tower();
-        }
-        else
-        {
             east();
         }
     }
@@ -1096,6 +1085,22 @@ public class dnd
         System.out.println("\n\n          A game by Pratyush Kumar            ");    
     }
 
+    /*public void crossroad()
+    {
+        System.out.println("\n------------------------------------------------------------------");
+        System.out.println("1: Go back to the crossroad");
+        System.out.println("------------------------------------------------------------------\n");
+        int ch1=sc.nextInt();
+        if(ch1==1)
+        {
+            tower();
+        }
+        else
+        {
+            east();
+        }
+    }*/
+
     public void exit()
     {
         System.out.println("-------Goodbye!-------");
@@ -1130,9 +1135,9 @@ public class dnd
         }
         else if(ch==4)
         {
-            System.out.println("Current Version: v1.1.0");
+            System.out.println("Current Version: v1.1.1");
             System.out.println("Current Developer Version: v1.0.0");
-            System.out.println("Released   on  : 22 JULY 2020   ");
+            System.out.println("Released   on  : 27 JULY 2020   ");
             System.out.println("Check out the GitHub page of the game for latest updates!");
             settings();
         }
@@ -1279,8 +1284,8 @@ public class dnd
             playersettings();
         }
         else if(ch==4){
-            System.out.println("Current Version: v1.1.0");
-            System.out.println("Released   on  : 22 JULY 2020");
+            System.out.println("Current Version: v1.1.1");
+            System.out.println("Released   on  : 27 JULY 2020");
             System.out.println("Check out the GitHub page of the game for latest updates!");
             playersettings();
         }
