@@ -1085,22 +1085,6 @@ public class dnd
         System.out.println("\n\n          A game by Pratyush Kumar            ");    
     }
 
-    /*public void crossroad()
-    {
-        System.out.println("\n------------------------------------------------------------------");
-        System.out.println("1: Go back to the crossroad");
-        System.out.println("------------------------------------------------------------------\n");
-        int ch1=sc.nextInt();
-        if(ch1==1)
-        {
-            tower();
-        }
-        else
-        {
-            east();
-        }
-    }*/
-
     public void exit()
     {
         System.out.println("-------Goodbye!-------");
