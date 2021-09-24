@@ -26,7 +26,7 @@ VCS Cloning Method to directly import files
 - In BlueJ, head to Tools > Team > Checkout Project > (a dialogue box will pop open)
 - In the dialgoue box, enter the respository URL (https://github.com/thepratyushkumar/DnD-The-Game) & leave the 'Branch' field blank
 - Next, enter your personal details. Type in your GitHub email id, GitHub username and GitHub password. Make sure the email, user and password are same as the one associated with your GitHub account. 
-- You can press on 'Check Connection' button to check if BlueJ was able to connect with your GitHub account or not. Thereafter, click 'OK'.
+- You can click on 'Check Connection' button to check if BlueJ was able to connect with your GitHub account or not. Thereafter, click 'OK'.
 - The 'Create a Project for Checkout' dialogue box appears. Enter a file name of your choice, select the file location and click 'OK'
 - The project will be created and you're good to go! But before you play, make sure the 'DnD' class is compiled. If not, right click on 'DnD' and click compile. After the diagonal lines disappear, richt click on 'DnD' again and select 'void main String[] args' option.
 - A window will pop up: Left click on OK to run the program. The game will start in BlueJ's 'terminal' window.
