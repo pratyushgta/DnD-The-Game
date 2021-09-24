@@ -31,7 +31,7 @@ VCS Cloning Method to directly import files
 - The project will be created and you're good to go! But before you play, make sure the 'DnD' class is compiled. If not, right click on 'DnD' and click compile. After the diagonal lines disappear, richt click on 'DnD' again and select 'void main String[] args' option.
 - A window will pop up: Left click on OK to run the program. The game will start in BlueJ's 'terminal' window.
 
-Method for not-so-techy people
+Method for not-so-geeky people
 - In BlueJ, create a new class. Then copy and paste the source code.  
 - Right click on the program file in BlueJ's main window, and then,
 - Left click on the void main(String[]args) tab.
